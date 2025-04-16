@@ -1,0 +1,120 @@
+<!DOCT<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del Rosario Hobbies and Interests</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: darkviolet;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: indigo;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex: 1;
+            padding: 20px;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+        }
+        .section {
+            width: 45%;
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .section h2 {
+            text-align: center;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #8a2be2;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        .button:hover {
+            background-color: #7a1ab1;
+        }
+        footer {
+            background-color: darkviolet;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Del Rosario Hobbies and Interests</h1>
+    </header>
+
+    <nav>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#interests">Interests</a>
+    </nav>
+
+    <main>
+        <div class="content">
+            <!-- Hobbies Section -->
+            <div class="section" id="hobbies">
+                <h2>Hobbies</h2>
+                <p>I like to play on my Nintendo, and sometimes I play on my friend Hezekiah's Nintendo just to play Pokémon. I'd also like to animate I'm practicing animation that isn't just stick figures anymore. I sometimes make memes of my friends and draw them as part of the meme.</p>
+                <a href="#hobbies" class="button">Learn More About Hobbies</a>
+                <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHMbHvXJYYX1Wf30fs0FHjt23Cb8MdvPWrw&s="description of the image">
+            </div>
+
+            <!-- Interests Section -->
+            <div class="section" id="interests">
+                <h2>Interests</h2>
+                <p>I'm interested in other animators, anime, and even cartoons because they’re really good at animation especially One Piece, which I really like for its frame impact. What I enjoy about the dojo community is how they animate their characters' combat scenes.</p>
+                <a href="#interests" class="button">Learn More About Interests</a>
+                <img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAsVBMVEUAAAD///8AAQAAAAMAAAX///0DAAEAAgADAgQBAAYhIyBSUlH5+fanp6err6yEhILv7+2cm5oLDAooKCgTExMbGxx+fn3v8e/HycZsamnAxcHn6uYACAPX2dVERENxc3G4ubXj4+O9u77U0dVeX1ijpJufoKNWV1RMTkwyNSwcGxQ7PDnR09FUVlH4/faOjow/Pz0zMzVvb3AvMDGCgIIhISfd5d28ublfX19ucWmNjYKwEwBvAAAEFElEQVR4nO3abXOiSBAH8G6eBAUFVECJUTbZ1Yuu6CaXePf9P9j1gEY3dXWXN7dTN/x/L1bA1NbQzkz3DBABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABc2b7uFmjX090A3Wz1Tzqe6G6HTg5NkzLOUt3t0GqQc6G7DZrNXJ4TdXhS7FE/dMs78rsbA4to4fK99AJPd1M0WrK7OueGzqo4HJPd6RismVcyGXQ6Bl+YpRt0eCxYNIn5QUZCh8dCQI/MmcyIThsD3/blyLLUsaW1Zb+MFdBXl5+vMZAU6bx/qatVv5blUeE+3F6g9ObYZLbaLJBbtHyPYv52vtre83f5vE0ShiYMGfPvHZ6YZ9eVghysN5Iob8tmQ2PgBHKvSZRsiH5jflK3+ZhE9bYJQkJeIBeOWTIayB/7zr/+f/9LPm0XrOz63zmU03XVnH5RX87J8elu1VyoBuQ7ZnYEut/n9eHpUId5xpVaMVQvx/EmUse0mxKlrzzcTI6jmB/JMbQjxOW0+RzHofz4/csGykBtI+xkhBQ8aK8sZClhZgy+8fGcBgYuD6mI1TzZk5Gf8YnmIzpJ2SSVo6SESV6ooWGgeHg+sOQXT6Y8osBxbHWvVUFzCUpJ1NTPNtVsYkfw6XDp6eIHj2YsNbOkAtvzKIlpVVCcvGfEJ+kZxs2K8ts+cnr5mWnDWc1tEWDJMiHjdFX23OW1ZNjXsqgwjO3Qmi8nvkyDszpUFaOMC6tH2f5uldN+een/AbHEwMB+sJX+fT6RsTBbSkhkOmi6hYyFOVN+HQsp/zAwBj712jnRUv3gjZdjfpFKyHGCoJkTC6bi9f3PMzUnmhYDJXKPquvL+L/nsKadSgOk8sJSFg8VNx/n5w3xg6krhjyeNv1gHJejhJ4vNdLalYNQhsZDuGmv7PhgaAho48YvU5q8hPl2EKkOv1hKQL5yNVELSaLfKzfpE80WvNTd1P+I3a6ZXJd3zzSNpNOf4maJNE9VvbyXpDAp5Hvm+GToutF2VEV4SobJWg36RCVGmkVRfa9y4YjLpjo+RW/DLCU/MHJGtG8fqFg0u056PakUV7J4vHknxTd12WirotCjdv942r9cblZRr/ym9s+aY/UE0tC9tA9+WhZu95yYmg0/+niXzbnnS4qQItLqUAzsn84t8hypEvPxza56N4JxQ6aHVPKlmbXxZ6ktk2ZDRXdD9JHfv2SXzFsnfp4V0B/qXYSgwzGQHFmqB7CmVkWf4dCfzEO1n2L449Z/cti7le426PbK4aHLb2oSPVdc9Tv9Antah3FN52VUR03G7QsoXY4BNU9duh0A9ZjF7/Br2wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Df+AoN4LebqRxFMAAAAAElFTkSuQmCC alt="description of the image">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Hobbies and Interests. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
